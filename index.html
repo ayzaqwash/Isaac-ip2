@@ -16,21 +16,13 @@
         were born.</p>
     <p>Enter your gender</p>
     <form>
-        <table>
-            <tr>
-                <td>
-                    Gender:
-                </td>
-                <td>
-                    <input type="radio" name="Gender">Male
-                    <input type="radio" name="Gender">Female
-                </td>
-            </tr>
-        </table>
+        <label for="dateofbirth">Date of birth</label><br><input type="text" id="dateofbirth" name="dateofbirth" value=""><br>
+        <label for="gender">Gender</label><br><input type="text" id="gender" name="gender" value=""><br>
+        
     </form>
     <div class="akan">
         <h2>Akan name finder</h2>
-        <button class="btn">Find my akan name</button>
+        <button class="btn" onclick="getBirtDay()">Find my akan name</button>
         <p id="result"></p>
     </div>
 
