@@ -19,4 +19,8 @@ To access this project on your local files, you can clone it using these steps
 1. Git
 1. Javascript
 1. Bootstrap
-##
+## BDD
+1. define a test set for the unit first;
+1. make the tests fail;
+1. then implement the unit;
+1. finally verify that the implementation of the unit makes the tests succeed.

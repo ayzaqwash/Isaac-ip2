@@ -68,11 +68,11 @@ function checkinputs(CC, YY, MM, DD) {
     console.log()
     console.log(typeof DD)
     if (0>=(DD)||DD>31) {
-        alert("date of birth is greater than 31 or less than zero");
-        return false
+        alert("please enter a valid date");
+        return Error
     } else if (0>=(MM)||MM>12) {
-        alert("month is equal or less than zero, or greater than  12");
-        return false
+        alert("please enter a valid date");
+        return Error
     } else {
         return true
     }
