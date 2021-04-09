@@ -24,9 +24,13 @@
     box-sizing: border-box;
 }
 body {
-    background-color: blueviolet;
+    background-color: rgb(133, 99, 165);
     margin-left: 5px;
     margin-top: 3px;
     margin-right: 5px;
     padding: 20px;
     }
+h1 {
+    color: rgb(8, 40, 110);
+    text-align: center;
+}
