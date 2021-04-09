@@ -46,3 +46,18 @@ function getBirtDay() {
     console.log("me")
 }}
 }
+
+function checkinputs(CC, YY, MM, DD) {
+    //get the values from the inputs
+    console.log()
+    console.log(typeof DD)
+    if (0>=(DD)||DD>31) {
+        alert("date of birth is greater than 31 or less than zero");
+        return false
+    } else if (0>=(MM)||MM>12) {
+        alert("month is equal or less than zero, or greater than  12");
+        return false
+    } else {
+        return true
+    }
+}
