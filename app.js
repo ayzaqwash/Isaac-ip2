@@ -23,47 +23,45 @@ function getBirtDay() {
     console.log(gender)
     var zac=checkinputs(CC, YY, MM, DD)
    console.log(zac)
-   if (zac) { 
 
-    let birthDay = parseInt((((CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )%7)
-   console.log (birthDay, gender==="male")
-   if (birthDay===1&&gender==="male") {
-    alert("Your akan name=Kwasi")
-} else if (birthDay===2&&gender==="male") {
-    alert("Your akan name is Kwadwo")
-} else if (birthDay===3&&gender==="male") {
-    alert("your akan name is Kwabena")
-} else if (birthDay===4&&gender==="male")
-{alert("Your akan name is Kwaku")
-} else if (birthDay===5&&gender==="male") {
-    alert("your akan name is Yaw")
-} else if (birthDay===6&&gender==='male')  {
- console.log("line 40")   
- alert("your akan name is Kofi")
-} else if (birthDay===7&&gender==="male") {
-    alert("Your akan name is Kwame")
-} else {
-    console.log("me")
-}}
-console.log (birthDay, gender==="female")
-   if (birthDay===0&&gender==="female") {
-       alert("Your akan name=Akosua")
-   } else if (birthDay===1&&gender==="female") {
-       alert("Your akan name is Adwoa")
-   } else if (birthDay===2&&gender==="female") {
-       alert("your akan name is Abenaa")
-   } else if (birthDay===3&&gender==="female")
-   {alert("Your akan name is Akua")
-   } else if (birthDay===4&&gender==="female") {
-       alert("your akan name is Yaa")
-   } else if (birthDay===5&&gender==='female')  {   
-    alert("your akan name is Afua")
-   } else if (birthDay===6&&gender==="female") {
-       alert("Your akan name is Ama")
-   } else {
-       console.log("me")
-   }
-}
+   {
+    var birthDay = parseInt((((CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )%7)
+    console.log (birthDay, gender==="male")
+    if (birthDay===0&&gender==="male") {
+        alert("Your akan name=Kwasi")
+    } else if (birthDay===1&&gender==="male") {
+        alert("Your akan name is Kwadwo")
+    } else if (birthDay===2&&gender==="male") {
+        alert("your akan name is Kwabena")
+    } else if (birthDay===3&&gender==="male")
+    {alert("Your akan name is Kwaku")
+    } else if (birthDay===4&&gender==="male") {
+        alert("your akan name is Yaw")
+    } else if (birthDay===5&&gender==='male')  {   
+     alert("your akan name is Kofi")
+    } else if (birthDay===6&&gender==="male") {
+        alert("Your akan name is Kwame")
+    } else {
+        console.log("me")
+    }}
+    console.log (birthDay, gender==="female")
+    if (birthDay===0&&gender==="female") {
+        alert("Your akan name=Akosua")
+    } else if (birthDay===1&&gender==="female") {
+        alert("Your akan name is Adwoa")
+    } else if (birthDay===2&&gender==="female") {
+        alert("your akan name is Abenaa")
+    } else if (birthDay===3&&gender==="female")
+    {alert("Your akan name is Akua")
+    } else if (birthDay===4&&gender==="female") {
+        alert("your akan name is Yaa")
+    } else if (birthDay===5&&gender==='female')  {   
+     alert("your akan name is Afua")
+    } else if (birthDay===6&&gender==="female") {
+        alert("Your akan name is Ama")
+    } else {
+        console.log("me")
+    }}
 
 function checkinputs(CC, YY, MM, DD) {
     //get the values from the inputs
