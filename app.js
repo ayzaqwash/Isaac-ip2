@@ -21,4 +21,7 @@ function getBirtDay() {
     var DD=dateOfBirth.slice(0, 2)
     console.log(DD)
     console.log(gender)
+    var zac=checkinputs(CC, YY, MM, DD)
+   console.log(zac)
+   if (zac) { 
 }
