@@ -45,6 +45,24 @@ function getBirtDay() {
 } else {
     console.log("me")
 }}
+console.log (birthDay, gender==="female")
+   if (birthDay===0&&gender==="female") {
+       alert("Your akan name=Akosua")
+   } else if (birthDay===1&&gender==="female") {
+       alert("Your akan name is Adwoa")
+   } else if (birthDay===2&&gender==="female") {
+       alert("your akan name is Abenaa")
+   } else if (birthDay===3&&gender==="female")
+   {alert("Your akan name is Akua")
+   } else if (birthDay===4&&gender==="female") {
+       alert("your akan name is Yaa")
+   } else if (birthDay===5&&gender==='female')  {   
+    alert("your akan name is Afua")
+   } else if (birthDay===6&&gender==="female") {
+       alert("Your akan name is Ama")
+   } else {
+       console.log("me")
+   }
 }
 
 function checkinputs(CC, YY, MM, DD) {
