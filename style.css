@@ -24,7 +24,9 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(133, 99, 165);
+    background-image: url(akan.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-left: 5px;
     margin-top: 3px;
     margin-right: 5px;
