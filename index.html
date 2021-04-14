@@ -7,23 +7,35 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.0.js"></script>
 </head>
 
 <body>
     <h1>Web Application Description</h1>
     <p>The web application is designed to enable users to determine the day of the week when they were born by entering
         their birthday. besides, it enables them to establish their Akan name basecd on their genger and the day they
-        were born. Akan names are given to the people og Ghana based on their gender and the day of the week they were born</p>
-    <p>Enter your date of birth and gender, then click on the Akan name fider</p>
-    <form>
-        <label for="dateofbirth">Date of birth</label><br><input type="text" id="dateofbirth" name="dateofbirth" value=""><br>
-        <label for="gender">Gender</label><br><input type="text" id="gender" name="gender" value=""><br>
-        
-    </form>
-    <div class="akan">
-        <h2>Akan name finder</h2>
-        <button class="btn" onclick="getBirtDay()">Find my akan name</button>
-        <p id="result"></p>
+        were born.</p>
+    <div class="container-fluid">
+        <form id="calc">
+            <div class="dob">
+                <p>Enter date of birth</p>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday">
+            </div>
+            <div class="gender">
+                <p>Select your gender and click the add button</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+            </div>
+            <input type="submit" value="add"/>
+            <!-- <div class="akan">
+                <h2>Akan name finder</h2>
+                <button class="btn" onclick="get()">Find my akan name</button>
+                <p id="result"></p>
+            </div> -->
+        </form>
     </div>
 
     <script src="app.js" async defer></script>
